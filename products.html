@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eazi Eatz - Products</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fafafa; }
+    header { background: #ffb703; padding: 15px; text-align: center; }
+    nav a { margin: 0 10px; text-decoration: none; color: #000; font-weight: bold; }
+    main { max-width: 1000px; margin: 20px auto; padding: 20px; }
+    h2 { color: #333; text-align: center; margin-bottom: 20px; }
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .product-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); padding: 15px; text-align: center; }
+    .product-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+    .product-card h3 { margin: 10px 0; }
+    .product-card p { color: #555; font-size: 14px; margin-bottom: 10px; }
+    .price { font-weight: bold; color: #333; margin-bottom: 10px; }
+    .buy-btn { background: #ffb703; color: #000; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; }
+    .buy-btn:hover { background: #f4a261; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Eazi Eatz</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <p style="text-align:center; margin-bottom: 20px;">Authentic South African snacks made with love and quality ingredients.</p>
+    
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/maputi-classic.jpg" alt="Classic Maputi">
+        <h3>Classic Maputi</h3>
+        <p>Traditional roasted maize snack, lightly salted.</p>
+        <div class="price">R15 per pack</div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/maputi-chilli.jpg" alt="Chilli Maputi">
+        <h3>Chilli Maputi</h3>
+        <p>Spicy roasted maize snack for heat lovers.</p>
+        <div class="price">R18 per pack</div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/maputi-bulk.jpg" alt="Bulk Pack">
+        <h3>Bulk Pack</h3>
+        <p>Perfect for parties or events – 20 packs.</p>
+        <div class="price">R250 per box</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
